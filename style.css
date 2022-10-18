@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+}
+
+
+
+.fa.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.main {
+    height: 100vh;
+    background-color: #285AEB;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/371/264/21/itzmauuuroo-hackers-anonymous-hd-wallpaper-preview.jpg);
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+
+}
+
+.txt {
+    font-size: 50px;
+    margin: 0 20px;
+    color: white;
+    text-shadow: 8px 7px black;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link {
+    font-size: 30px;
+    background-color: white;
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    transition: 0.51s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    border: 2px black solid;
+}
+
+.links {
+    font-size: 30px;
+    background-color: white;
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    border: 2px black solid;
+    transition: 0.51s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.holdme {
+
+    height: 400px;
+    background-color: #da3662;
+    width: 100%;
+    margin: 300px 0;
+    display: flex;
+    align-items: center;
+    color: #eadde9;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    background-image: linear-gradient(purple red yellow);
+}
+
+.tt {
+    margin: 30px 0;
+}
+
+.link,
+.links:hover {
+    transform: scale(1.1);
+}
+
+span {
+    background-color: rgb(255, 248, 248);
+    color: rgb(14, 0, 0);
+    text-shadow: 2px 0px black;
+
+
+}
+
+.child-text {
+    font-size: xx-large;
+    background-color: wheat;
+}
+
+.child {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQdRNNWAav2tnQKbQuZaRSuqSl1iXCUA-GIg&usqp=CAU);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: column;
+
+}
+
+.last-sec {
+    height: 100vh;
+    color: black;
+}
+
+
+
+input {
+    margin: 10px 0;
+}
+
+.ran {
+    margin: 100px 0 40px 0;
+}
+
+@media screen and (max-width:800px) {
+
+    .main,
+    .child {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .child {
+        background-size: cover;
+        /*  height: 100vh;*/
+    }
+}
